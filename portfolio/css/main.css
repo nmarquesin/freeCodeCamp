@@ -1,0 +1,19 @@
+
+
+.col-md-12 {
+  background-color: black;
+}
+
+.col-md-10 {
+  background-color: white;
+}
+
+.col-md-1 {
+  background-color: gray;
+}
+
+#navBar{}
+#about{}
+#portfolio{}
+#contact{}
+#rodape{}
