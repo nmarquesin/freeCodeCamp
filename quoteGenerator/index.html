@@ -11,7 +11,9 @@
 <script>
 $(document).ready(function() {
   $("#getMessage").on("click", function(){
-    $(".message").html("Here is the message");
+    $.getJSON( "http://quotes.stormconsultancy.co.uk/random.json", function(json){
+    $(".message").html(JSON.stringify(json));
+    });
   });
 });
 </script>
