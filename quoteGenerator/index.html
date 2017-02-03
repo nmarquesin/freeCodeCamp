@@ -13,9 +13,9 @@
 <script>
 $(document).ready(function() {
   $("#getMessage").on("click", function(){
-    $.getJSON( "http://quotes.stormconsultancy.co.uk/random.json", function(json){
+    $.getJSON( "https://random-quote-generator.herokuapp.com/api/quotes/random", function(json){
       console.dir(json);
-    $(".message").html(json.quote)
+    $(".message").html(json.quote);
     $(".author").html(json.author);
 
     });
@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 <div class="container-fluid">
   <div class = "row text-center">
-    <h2>Storm's Random Quote Generator</h2>
+    <h2>Random Quote Generator</h2>
   </div>
   <div class = "row text-center">
     <div class = "col-xs-12 well">
@@ -34,7 +34,6 @@ $(document).ready(function() {
         The message will go here
       </div>
       <div class = "author">
-        The author will go here
       </div>
     </div>
 
