@@ -1,0 +1,12 @@
+body {
+  background-image: linear-gradient(-30deg, cyan, white, orange);
+}
+
+.main-box{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.convert-btn{
+  margin-bottom: 250px;
+}
