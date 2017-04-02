@@ -1,19 +1,68 @@
-
-
-.col-md-12 {
-  background-color: black;
+div{
+	border: 0px solid #73AD21;
+	font-family: Monospace;
 }
 
-.col-md-10 {
-  background-color: white;
+.noclass{
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
-.col-md-1 {
-  background-color: gray;
+.btn-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+	padding: 0;
+	border: 0;
 }
 
-#navBar{}
-#about{}
-#portfolio{}
-#contact{}
-#rodape{}
+.blue {
+	color: green;
+}
+
+a.blue:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.projectText{
+	padding: 30px;
+}
+
+.projects {
+	margin: 15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#navBar{
+	background-color: black;
+	color: green;
+}
+#about, #courses, #portfolio{
+	background-color: #AAAAAA;
+}
+
+#contact{
+	background-color: #222222;
+}
+#rodape{
+	background-color: black;
+}
+
+.mailMargin {
+	margin-top: 30px;
+	margin-botton: 25px;
+}
+
+.whiteBack {
+	padding-top: 160px;
+	background-color: white;
+}
